@@ -1,4 +1,23 @@
 target/
+
+# IntelliJ IDEA projekt fájlok
+/.idea/
+/*.iml
+
+# OS-specifikus fájlok
+.DS_Store
+Thumbs.db
+
+# IDE konfigurációs fájlok
+*.log
+
+# Maven wrapper
+.mvn/
+
+# Fájlok, amelyek a build során automatikusan létrejönnek
+*.war
+*.ear
+
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -10,8 +29,13 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
+/.project
+/.classpath
+/.settings/
+/nbproject/
 # Eclipse m2e generated files
 # Eclipse Core
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
